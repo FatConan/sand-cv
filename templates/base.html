@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+     <title>{{ DATA.get("title") }}</title>
+     {{ ES6CSS.headers() | safe }}
+</head>
+<body>
+    <section class="cv">
+        {% block content %}{{ content|safe }}{% endblock %}
+    </section>
+</body>
+</html>
