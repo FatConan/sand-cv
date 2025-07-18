@@ -11,7 +11,7 @@ This project requires Python 3.x and the [Sand](https://github.com/FatConan/sand
 ## How to use it
 
 You may replace the content of `cv.md` with your own CV in markdown. You can run `sand . --serve` from within the
-project's folder to render the CV as HTML and start it running on a debug server at [http://localhoist:9000].
+project's folder to render the CV as HTML and start it running on a debug server at http://localhost:9000.
 
 Once you're happy the content of the output folder may be hosted at the webserver of your choice to provide online access
 or you can use your browser's print to PDF function to capture the CV from your debug server as a PDF.
@@ -23,3 +23,9 @@ In other projects I've also added Sand plugins to extend the markdown functional
 
 I use Sand to generate all of my websites (and I use it to generate an HTML version of my own CV) and thought it might 
 be of use.
+
+## Example Output
+
+This example project will render the `cv.md` as HTML with a LaTeX style: 
+
+![A rendered version of the example CV](rendered.png "A rendered version of the example CV")
